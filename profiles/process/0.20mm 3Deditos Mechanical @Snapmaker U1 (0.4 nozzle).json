@@ -7,7 +7,10 @@
     "instantiation": "true",
     "description": "3DEDITOS // Rigidez estructural máxima y tolerancias mecánicas calibradas (4 paredes, Gyroid 30%, compensación de agujeros XY y costura alineada).",
     "compatible_printers": [
-        "Snapmaker U1 (0.4 nozzle)"
+        "Snapmaker U1 (0.4 nozzle)",
+        "Snapmaker U1 (0.2 nozzle)",
+        "Snapmaker U1 (0.6 nozzle)",
+        "Snapmaker U1 (0.8 nozzle)"
     ],
     "wall_loops": "4",
     "sparse_infill_pattern": "gyroid",
@@ -27,5 +30,8 @@
     "bottom_shell_layers": "5",
     "internal_solid_infill_pattern": "rectilinear",
     "support_type": "tree(auto)",
-    "process_flow_support": ["standard", "high_flow"]
+    "process_flow_support": [
+        "standard",
+        "high_flow"
+    ]
 }

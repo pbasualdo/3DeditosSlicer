@@ -7,7 +7,10 @@
     "instantiation": "true",
     "description": "3DEDITOS // Protocolo de soporte disímil Zero-Gap (Luz Z = 0.0mm, 3 capas densas Rectilinear Interlaced) para acabado inferior espejo sin marcas de contacto.",
     "compatible_printers": [
-        "Snapmaker U1 (0.4 nozzle)"
+        "Snapmaker U1 (0.4 nozzle)",
+        "Snapmaker U1 (0.2 nozzle)",
+        "Snapmaker U1 (0.6 nozzle)",
+        "Snapmaker U1 (0.8 nozzle)"
     ],
     "wall_loops": "3",
     "sparse_infill_pattern": "gyroid",
@@ -30,5 +33,8 @@
     "wipe_tower_wall_type": "rib",
     "wipe_tower_extra_rib_length": "8",
     "standby_temperature_delta": "-150",
-    "process_flow_support": ["standard", "high_flow"]
+    "process_flow_support": [
+        "standard",
+        "high_flow"
+    ]
 }
