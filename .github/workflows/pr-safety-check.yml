@@ -1,0 +1,21 @@
+name: 3DEDITOS PR Safety Guardrails
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-contribution:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run 3DEDITOS Profile Validator
+        run: |
+          python validate_profile.py
