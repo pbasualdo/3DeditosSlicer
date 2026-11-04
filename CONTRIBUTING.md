@@ -27,7 +27,7 @@ We actively seek community contributions in:
 * Novel multi-material combinations adhering to the chemical affinity matrix (`PETG + TPU`, `PLA + PETG` support, etc.).
 
 ### 2. Multi-Platform Support
-* Extending [`3deditos_cli.py`](file:///f:/Development/OfflineRepos/3d/3DeditosSlicer/3deditos_cli.py) and bootstrap scripts to support **Linux (AppImage / Flatpak)** and **macOS (Universal DMG)**.
+* Extending [`3deditos_cli.py`](3deditos_cli.py) and bootstrap scripts to support **Linux (AppImage / Flatpak)** and **macOS (Universal DMG)**.
 
 ### 3. DfAM Heuristics & Automation
 * Enhancing geometric inspection routines (e.g., minimum wall thickness detection, overhang classification, elephant-foot warnings).

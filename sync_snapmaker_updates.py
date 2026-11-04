@@ -98,7 +98,7 @@ def run_sync():
     report_content = f"""# 📋 3DeditosSlicer // Registro Semanal de Sincronización
 
 > **Fecha de ejecución:** `{now_str}`  
-> **Auditor:** [3DEDITOS](file:///f:/Development/OfflineRepos/.agents/skills/cad-3d-specialist/SKILL.md) (3D CAD & Additive Manufacturing Specialist)
+> **Auditor:** **3DEDITOS** (Additive Manufacturing & Slicing Specialist)
 
 ---
 
@@ -122,9 +122,8 @@ def run_sync():
 * **URL U1:** [{wiki_info.get('url')}](https://wiki.snapmaker.com/en/snapmaker_u1)
 * **Estado del portal:** `HTTP {wiki_info.get('status')}`
 * **Última modificación detectada en cabecera:** `{wiki_info.get('last_modified', 'Dinámico')}`
-* **Referencias locales integradas:**
-  * [snapmaker_u1_cheatsheet.md](file:///f:/Development/OfflineRepos/.agents/skills/cad-3d-specialist/references/snapmaker_u1_cheatsheet.md)
-  * [README.md de 3DeditosSlicer](file:///f:/Development/OfflineRepos/3d/3DeditosSlicer/README.md)
+* **Documentación local:**
+  * [README.md](README.md)
 
 ---
 
