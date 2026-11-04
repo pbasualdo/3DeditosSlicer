@@ -1,5 +1,9 @@
 # 🖨️ 3DeditosSlicer // Suite Oficial de Slicing para Snapmaker U1
 
+<p align="center">
+  <img src="assets/logo.png" alt="3Deditos Logo" width="180"/>
+</p>
+
 > **Especialista:** **3DEDITOS** (Additive Manufacturing & Slicing Specialist)  
 > **Motor Base:** [Snapmaker Orca V2.4.1 Portable](https://github.com/Snapmaker/OrcaSlicer) (Upstream OrcaSlicer / AGPLv3)  
 > **Hardware Objetivo:** **Snapmaker U1** CoreXY Toolchanger (4 Cabezales Autónomos SnapSwap™).
