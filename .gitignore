@@ -1,0 +1,22 @@
+# ==========================================
+# 3DeditosSlicer // Git Ignore Rules
+# ==========================================
+
+# Binarios e instaladores pesados (descargados vía bootstrap.py)
+*.zip
+*.tar.gz
+*.7z
+Snapmaker_Orca_Windows_*/
+
+# Salidas de corte y logs
+*.gcode
+*.log
+sync_report.md
+
+# Archivos de Python
+__pycache__/
+*.pyc
+
+# Archivos temporales de OS
+.DS_Store
+Thumbs.db

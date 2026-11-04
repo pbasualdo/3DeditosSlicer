@@ -1,0 +1,23 @@
+{
+    "type": "process",
+    "name": "0.20mm 3Deditos Overmold PETG+TPU @Snapmaker U1 (0.4 nozzle)",
+    "inherits": "fdm_process_U1_0.20",
+    "from": "system",
+    "setting_id": "3DEDITOS_OVERMOLD_003",
+    "instantiation": "true",
+    "description": "3DEDITOS // Sobremoldeado bimaterial híbrido rígido + elástico (PETG + TPU 95A/90A) para sellos integrados, grips y amortiguadores.",
+    "compatible_printers": [
+        "Snapmaker U1 (0.4 nozzle)"
+    ],
+    "wall_loops": "3",
+    "sparse_infill_pattern": "gyroid",
+    "sparse_infill_density": "25%",
+    "ooze_prevention": "1",
+    "prime_tower_width": "35",
+    "prime_volume": "50",
+    "wipe_tower_wall_type": "rib",
+    "wipe_tower_extra_rib_length": "8",
+    "standby_temperature_delta": "-130",
+    "initial_layer_speed": "40",
+    "process_flow_support": ["standard", "high_flow"]
+}
