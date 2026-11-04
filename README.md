@@ -67,6 +67,18 @@ Todos los perfiles están inyectados nativamente en el motor (`resources/profile
 
 ---
 
+## 🛡️ Filosofía de Seguridad: Human-in-the-Loop (Mandatorio)
+
+En **3DeditosSlicer**, ningún agente de IA tiene autorización para ordenar la extrusión física sin confirmación humana:
+1. **El Agente Diseña, Audita y Calibra:** 3DEDITOS calcula trayectorias, evalúa tolerancias mecánicas (`0.2 mm`), verifica límites de volumen y optimiza la Prime Tower.
+2. **El Humano Autoriza y Ejecuta:** Antes de encender los motores y calentar la cama, el operador humano confirma:
+   * Cama libre de residuos de impresiones anteriores.
+   * Chapa adecuada instalada (PEI texturado o liso con desmoldante).
+   * Coincidencia física entre los carretes en las bahías y la asignación digital de cabezales (`T0`..`T3`).
+   * Cierre seguro del cerramiento y ventilación despejada.
+
+---
+
 ## 🛠️ Estructura del Directorio
 
 ```
