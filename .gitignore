@@ -20,3 +20,8 @@ __pycache__/
 # Archivos temporales de OS
 .DS_Store
 Thumbs.db
+
+# Artefactos temporales de build
+logo_b64.txt
+original_index.html
+
