@@ -31,6 +31,9 @@ if sys.stdout.encoding.lower() != 'utf-8':
 def fetch_latest_github_release():
     url = "https://api.github.com/repos/Snapmaker/OrcaSlicer/releases"
     headers = {"User-Agent": "3DeditosSlicer-WeeklySync/1.0"}
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
     try:
         req = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(req, timeout=15) as resp:

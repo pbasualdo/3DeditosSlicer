@@ -25,6 +25,8 @@ jobs:
           python validate_profile.py
 
       - name: Run Snapmaker Wiki & Releases Sync
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python sync_snapmaker_updates.py
 
