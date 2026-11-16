@@ -69,8 +69,11 @@ Todos los perfiles están inyectados nativamente en el motor (`resources/profile
 | :--- | :--- | :--- |
 | **`0.20mm 3Deditos Mechanical`** | Piezas técnicas, carcasas y montajes funcionales. | 4 perímetros de pared, Infill Gyroid 30%, Costura alineada, Compensación de agujeros XY +0.1 mm, Compensación pata de elefante 0.15 mm. |
 | **`0.20mm 3Deditos Dissimilar Support PLA+PETG`** | Voladizos críticos y geometrías con soporte que requieren acabado espejo. | Contacto directo Zero-Gap (`Top Z = 0.0 mm`), 3 capas de interfaz continua `Rectilinear Interlaced`, sin luz de despegue. |
-| **`0.20mm 3Deditos Overmold PETG+TPU`** | Piezas híbridas rígido + flexible (sellos, juntas estancas, bumpers). | Temperatura de cama optimizada a 70°C, Prime Tower con costillas internas de anclaje, velocidad inicial a 40 mm/s. |
+| **`0.20mm 3Deditos Overmold PETG+TPU`** | Piezas híbridas rígido + flexible (sellos, juntas estancas, bumpers). | Temperatura de cama optimizada a 70°C, Prime Tower con costillas internas de anclaje, velocidad inicial a 40 mm/s. Homologado para 0.4/0.6/0.8 mm. |
 | **`0.20mm 3Deditos Kids Articulated 4Color`** | Juguetes articulados Print-in-Place y figuras multi-material. | Sin soportes en bisagras mecánicas, 6 capas de penetración de color en Z para erradicar sangrado de color (*color bleeding*). |
+| **`0.20mm 3Deditos High-Temp Carbon Engineering`** | Compuestos reforzados con fibra (PA-CF, PET-CF, ABS-GF) de alta exigencia mecánica. | Enfriamiento fan al 10–20% para máxima adherencia Z, Infill Gyroid 35% isotrópico, Brim exterior 5 mm. Homologado para boquillas 0.4/0.6/0.8 mm. |
+| **`0.28mm 3Deditos Ultra-Draft Fast Prototype`** | Prototipado veloz de volumen y encastres en 1/3 del tiempo. | Capa 0.28 mm, Infill Cross Hatch 12% (ahorro 55% filamento), 2 paredes, velocidad de relleno 240 mm/s High-Flow. |
+| **`0.08mm 3Deditos Ultra-Detail Art & Miniatures`** | Litofanías de alta definición, miniaturas de colección y bustos. | Capa ultrafina 0.08 mm, costura biselada *Scarf Joint* invisible, retracción anti-stringing, velocidad exterior 40 mm/s. Homologado para 0.2/0.4 mm. |
 
 ---
 

@@ -1,0 +1,33 @@
+{
+    "type": "process",
+    "name": "0.20mm 3Deditos High-Temp Carbon Engineering @Snapmaker U1 (0.4 nozzle)",
+    "inherits": "fdm_process_U1_0.20",
+    "from": "system",
+    "setting_id": "3DEDITOS_CARBON_005",
+    "instantiation": "true",
+    "description": "3DEDITOS // Polímeros técnicos reforzados con fibra (PA-CF, PET-CF, ABS-GF). Enfriamiento mínimo para máxima adhesión interlaminar Z, infill Gyroid 35% isotrópico y brim integrado.",
+    "compatible_printers": [
+        "Snapmaker U1 (0.4 nozzle)",
+        "Snapmaker U1 (0.6 nozzle)",
+        "Snapmaker U1 (0.8 nozzle)"
+    ],
+    "wall_loops": "4",
+    "sparse_infill_pattern": "gyroid",
+    "sparse_infill_density": "35%",
+    "seam_position": "aligned",
+    "brim_type": "outer_only",
+    "brim_width": "5",
+    "top_shell_layers": "5",
+    "bottom_shell_layers": "4",
+    "internal_solid_infill_pattern": "rectilinear",
+    "ooze_prevention": "1",
+    "prime_tower_width": "35",
+    "prime_volume": "50",
+    "wipe_tower_wall_type": "rib",
+    "wipe_tower_extra_rib_length": "8",
+    "standby_temperature_delta": "-100",
+    "process_flow_support": [
+        "standard",
+        "high_flow"
+    ]
+}

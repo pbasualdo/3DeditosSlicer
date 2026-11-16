@@ -1,0 +1,31 @@
+{
+    "type": "process",
+    "name": "0.28mm 3Deditos Ultra-Draft Fast Prototype @Snapmaker U1 (0.4 nozzle)",
+    "inherits": "fdm_process_U1_0.28",
+    "from": "system",
+    "setting_id": "3DEDITOS_DRAFT_006",
+    "instantiation": "true",
+    "description": "3DEDITOS // Prototipado rápido de gran velocidad. Altura de capa 0.28mm, infill Cross Hatch al 12% de ultra bajo consumo y aprovechamiento de flujo volumétrico High-Flow.",
+    "compatible_printers": [
+        "Snapmaker U1 (0.4 nozzle)",
+        "Snapmaker U1 (0.6 nozzle)",
+        "Snapmaker U1 (0.8 nozzle)"
+    ],
+    "wall_loops": "2",
+    "sparse_infill_pattern": "crosshatch",
+    "sparse_infill_density": "12%",
+    "seam_position": "nearest",
+    "top_shell_layers": "3",
+    "bottom_shell_layers": "3",
+    "initial_layer_speed": "50",
+    "outer_wall_speed": "140",
+    "inner_wall_speed": "200",
+    "sparse_infill_speed": "240",
+    "ooze_prevention": "1",
+    "prime_tower_width": "25",
+    "prime_volume": "35",
+    "process_flow_support": [
+        "standard",
+        "high_flow"
+    ]
+}
