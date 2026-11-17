@@ -1,8 +1,8 @@
-name: 3DEDITOS Weekly Sync & Safety Audit
+name: 3DEDITOS Daily Intelligence Watcher & Safety Audit
 
 on:
   schedule:
-    - cron: '0 9 * * 1' # Every Monday at 09:00 UTC
+    - cron: '0 9 * * *' # Every day at 09:00 UTC
   workflow_dispatch: # Allows manual trigger anytime
 
 permissions:
@@ -44,6 +44,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No new updates found. Working tree clean."
           else
-            git commit -m "chore(agent): weekly radar update & trends scan [skip ci]"
+            git commit -m "chore(agent): daily radar update & trends scan [skip ci]"
             git push origin main
           fi

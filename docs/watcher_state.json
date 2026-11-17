@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-17 13:46:36",
+    "timestamp": "2026-11-17 13:55:04",
     "repos": {
         "Snapmaker/OrcaSlicer": {
             "repo": "Snapmaker/OrcaSlicer",
@@ -77,6 +77,73 @@
             "title": "How to Regenerate Silica Gel Desiccant in a Microwave Safely",
             "date": "2026-11-13",
             "url": "https://3dprintingcanada.com/blogs/news/how-to-regenerate-silica-gel-desiccant-in-a-microwave-safely"
+        },
+        {
+            "title": "Improve Bed Levelling, Calibration, and Print Reliability",
+            "date": "2026-11-12",
+            "url": "https://3dprintingcanada.com/blogs/news/improve-bed-levelling-calibration-and-print-reliability"
+        }
+    ],
+    "fact_checks": [
+        {
+            "title": "PLA Specs: Properties, Printing, Uses and Limitations",
+            "date": "2026-11-17",
+            "url": "https://3dprintingcanada.com/blogs/news/pla-specs-properties-printing-uses-and-limitations",
+            "verdict": "APROBADO",
+            "verdict_icon": "🟢",
+            "category": "Ciencia de Materiales",
+            "scientific_basis": "Válido: Caracterización de poliláctico estándar vs modificado (PLA+ / Silk). Confirma que Silk PLA posee menor adhesión interlaminar por adición de elastómeros, requiriendo +15 °C en boquilla y -40% fan.",
+            "action": "Parámetros contrastados con la matriz de materiales de 3DEDITOS."
+        },
+        {
+            "title": "How to Check for a Clog and Clean a Nozzle With a Cold Pull",
+            "date": "2026-11-15",
+            "url": "https://3dprintingcanada.com/blogs/news/how-to-check-for-a-clog-and-clean-a-nozzle-with-a-cold-pull",
+            "verdict": "APROBADO",
+            "verdict_icon": "🟢",
+            "category": "Mantenimiento & Desatascos",
+            "scientific_basis": "Válido: El tirón en frío a temperatura de transición vítrea (Tg) extrae carbones por adherencia mecánica elástica sin dañar la geometría interior del nozzle. Prohibido usar agujas metálicas que rayen el orificio de salida.",
+            "action": "Protocolo oficial ratificado e incorporado en las guías operativas de taller."
+        },
+        {
+            "title": "Compare bi-metal heatbreak designs for thermal performance",
+            "date": "2026-11-14",
+            "url": "https://3dprintingcanada.com/blogs/news/compare-bi-metal-heatbreak-designs-for-thermal-performance",
+            "verdict": "APROBADO",
+            "verdict_icon": "🟢",
+            "category": "Gestión Térmica & Hardware",
+            "scientific_basis": "Válido: Gargantas bimetálicas (cobre/aleación de titanio) minimizan la conductividad térmica axial (k ~7 W/m·K en titanio vs ~400 W/m·K en cobre), confinando la zona de fusión y previniendo Heat Creep en impresiones prolongadas.",
+            "action": "Recomendación de hardware técnico aprobada para hotends de ingeniería."
+        },
+        {
+            "title": "4 Ways to Design and Print Overhangs Without a Fan",
+            "date": "2026-11-13",
+            "url": "https://3dprintingcanada.com/blogs/news/4-ways-to-design-and-print-overhangs-without-a-fan",
+            "verdict": "APROBADO_CON_CONDICIONES",
+            "verdict_icon": "🟡",
+            "category": "Reología & Enfriamiento",
+            "scientific_basis": "Condicional: Imprimir voladizos sin fan requiere desaceleración reológica drástica (Overhang Slowdown a 15-20 mm/s) y alturas de capa ultra-bajas (menor masa térmica por segmento). Solo viable en polímeros técnicos de alta Tg (ABS/ASA/PA) en cámara cerrada donde el enfriamiento forzado produce delaminación Z.",
+            "action": "Aprobado con bandera técnica: no aplicar en PLA o TPU donde el fan es mandatorio."
+        },
+        {
+            "title": "How to Regenerate Silica Gel Desiccant in a Microwave Safely",
+            "date": "2026-11-13",
+            "url": "https://3dprintingcanada.com/blogs/news/how-to-regenerate-silica-gel-desiccant-in-a-microwave-safely",
+            "verdict": "APROBADO",
+            "verdict_icon": "🟢",
+            "category": "Cuidado de Materiales",
+            "scientific_basis": "Válido: La sílice se regenera térmicamente entre 105 °C y 120 °C. Si se sobrecalienta en microondas (>150 °C) se fracturan las perlas y pierden capacidad de adsorción por colapso de microporos.",
+            "action": "Procedimiento de regeneración de desecantes incorporado a protocolos de almacenamiento."
+        },
+        {
+            "title": "Improve Bed Levelling, Calibration, and Print Reliability",
+            "date": "2026-11-12",
+            "url": "https://3dprintingcanada.com/blogs/news/improve-bed-levelling-calibration-and-print-reliability",
+            "verdict": "EN_REVISION",
+            "verdict_icon": "⚪",
+            "category": "Novedades & DfAM",
+            "scientific_basis": "Publicación general evaluada para compatibilidad con la cinemática de la Snapmaker U1.",
+            "action": "En seguimiento de telemetría."
         }
     ],
     "wiki": {
