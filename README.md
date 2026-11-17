@@ -89,6 +89,20 @@ En **3DeditosSlicer**, ningún agente de IA tiene autorización para ordenar la 
 
 ---
 
+## 🧠 Base de Conocimiento DfAM & Reglas de Taller Validadas
+
+Para evitar mitos y garantizar resultados de grado industrial, la suite incorpora un compendio técnico riguroso contrastado con la física de polímeros y la ingeniería aditiva:
+👉 **Consulte el manual completo en: [`docs/DFAM_ENGINEERING_RULES.md`](docs/DFAM_ENGINEERING_RULES.md)**
+
+* **Limpieza de PEI:** Lavado exclusivo con agua tibia y detergente neutro sin glicerina para arrastre micelar de lípidos.
+* **Hidrodinámica de 1ra Capa:** Extrusión al 125%–135% del diámetro de boquilla (0.50–0.52 mm en 0.40 mm) para anclaje térmico.
+* **Límite Reológico por Caudal:** Tope volumétrico estricto ($Q_{\text{máx}} \text{ en } mm^3/s$) configurado por material.
+* **Árbol de Decisión de Soportes:** *Tree supports* para orgánicos/salientes; *Rectilíneo continuo* obligatorio para losas planas.
+* **Deshidratación de Polímeros:** Secado térmico activo previo obligatorio para TPU, PETG y PA/Nylon (mitigación de hidrólisis térmica).
+* **Boquillas de Acero Endurecido:** Requeridas para filamentos Matte con carga mineral ($\text{CaCO}_3$) en uso intensivo y compuestos de fibra.
+
+---
+
 ## 🛠️ Estructura del Repositorio
 
 ```
@@ -100,5 +114,7 @@ En **3DeditosSlicer**, ningún agente de IA tiene autorización para ordenar la 
 ├── sync_snapmaker_updates.py                  # Auditor semanal de novedades
 ├── CONTRIBUTING.md                            # Guía de contribución para la comunidad
 ├── README.md                                  # Este manual técnico
+├── docs/
+│   └── DFAM_ENGINEERING_RULES.md              # Manual técnico DfAM y reglas de taller validadas
 └── profiles/process/                          # Presets maestros versionados de 3DEDITOS
 ```
