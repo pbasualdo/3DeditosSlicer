@@ -93,3 +93,4 @@ Este documento compila **exclusivamente el conocimiento técnico verificado por 
   * Los filamentos con **fibra de carbono, fibra de vidrio o partículas fosforescentes** destruyen una boquilla de latón en menos de 500 gramos.
 
 > **Regla de Taller:** Para piezas continuas de PLA Matte o cualquier compuesto técnico, utilizar exclusivamente **boquillas de acero endurecido (*hardened steel*)**.
+

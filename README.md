@@ -59,6 +59,13 @@ volume = 9,791.99 mm³
 python 3deditos_cli.py --presets
 ```
 
+### 4. Escaneo de Radar & Watcher de Tendencias Técnicas
+Monitorea en tiempo real los upstream oficiales (GitHub releases de Snapmaker y Orca), guías técnicas de laboratorio (3D Printing Canada feed) y audita la seguridad física local:
+```powershell
+python 3deditos_cli.py --radar
+```
+Consulte el reporte generado en: [`docs/WATCHER_RADAR.md`](docs/WATCHER_RADAR.md)
+
 ---
 
 ## 📦 Perfiles de Proceso de Ingeniería Precalibrados
@@ -112,9 +119,11 @@ Para evitar mitos y garantizar resultados de grado industrial, la suite incorpor
 ├── bootstrap.py                               # Instalador rápido del runtime portable
 ├── validate_profile.py                        # Validador de perfiles y seguridad
 ├── sync_snapmaker_updates.py                  # Auditor semanal de novedades
+├── 3deditos_watcher.py                        # Motor de inteligencia continua, upstream y tendencias
 ├── CONTRIBUTING.md                            # Guía de contribución para la comunidad
 ├── README.md                                  # Este manual técnico
 ├── docs/
-│   └── DFAM_ENGINEERING_RULES.md              # Manual técnico DfAM y reglas de taller validadas
+│   ├── DFAM_ENGINEERING_RULES.md              # Manual técnico DfAM y reglas de taller validadas
+│   └── WATCHER_RADAR.md                       # Radar vivo de tendencias técnicas y software
 └── profiles/process/                          # Presets maestros versionados de 3DEDITOS
 ```

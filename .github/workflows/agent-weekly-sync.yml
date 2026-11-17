@@ -30,14 +30,20 @@ jobs:
         run: |
           python sync_snapmaker_updates.py
 
-      - name: Commit & Push Sync Report
+      - name: Run 3DEDITOS Intelligence Watcher & Radar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python 3deditos_watcher.py
+
+      - name: Commit & Push Radar & Sync Report
         run: |
           git config user.name "3DEDITOS [AI Agent]"
           git config user.email "3deditos-agent@users.noreply.github.com"
-          git add sync_report.md
+          git add sync_report.md docs/WATCHER_RADAR.md docs/watcher_state.json
           if git diff --staged --quiet; then
             echo "No new updates found. Working tree clean."
           else
-            git commit -m "chore(agent): weekly sync update report [skip ci]"
+            git commit -m "chore(agent): weekly radar update & trends scan [skip ci]"
             git push origin main
           fi

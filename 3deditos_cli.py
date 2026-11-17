@@ -117,8 +117,15 @@ def main():
     parser.add_argument("--info", action="store_true", help="Inspeccionar geometría, volumen y facetas del modelo")
     parser.add_argument("--gui", action="store_true", help="Abrir en el entorno gráfico Snapmaker Orca")
     parser.add_argument("--presets", action="store_true", help="Listar los perfiles de proceso de ingeniería 3DEDITOS")
+    parser.add_argument("--radar", "--watch", dest="radar", action="store_true", help="Ejecutar el Watcher de tendencias técnicas, upstream y seguridad")
 
     args = parser.parse_args()
+
+    if args.radar:
+        import importlib
+        watcher = importlib.import_module("3deditos_watcher")
+        watcher.run_watcher()
+        return
 
     if args.presets:
         list_presets()

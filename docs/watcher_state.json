@@ -1,0 +1,122 @@
+{
+    "timestamp": "2026-11-17 13:46:36",
+    "repos": {
+        "Snapmaker/OrcaSlicer": {
+            "repo": "Snapmaker/OrcaSlicer",
+            "latest_tag": "v2.4.1",
+            "release_name": "Snapmaker Orca V2.4.1 Release",
+            "published_at": "2026-10-28",
+            "recent_commits": [
+                {
+                    "sha": "19df6ce",
+                    "date": "2026-11-16",
+                    "message": "Refresh Snapmaker Connect v1.10.0 asset hashes (#1209)"
+                },
+                {
+                    "sha": "d16d67d",
+                    "date": "2026-11-16",
+                    "message": "Refresh Snapmaker Connect v1.10.0 asset hashes"
+                },
+                {
+                    "sha": "6245898",
+                    "date": "2026-11-13",
+                    "message": "Feature sync gitlab to github. (#1181)"
+                }
+            ],
+            "status": "ok",
+            "html_url": "https://github.com/Snapmaker/OrcaSlicer/releases/tag/v2.4.1"
+        },
+        "OrcaSlicer/OrcaSlicer": {
+            "repo": "OrcaSlicer/OrcaSlicer",
+            "latest_tag": "v2.5.1",
+            "release_name": "OrcaSlicer V2.5.1 Official Release",
+            "published_at": "2026-11-14",
+            "recent_commits": [
+                {
+                    "sha": "e76b4d6",
+                    "date": "2026-11-17",
+                    "message": "Split smoothed infill corners no finer than 5 microns (#17630)"
+                },
+                {
+                    "sha": "745207d",
+                    "date": "2026-11-17",
+                    "message": "Choose the filament each calibration prints with (#17621)"
+                },
+                {
+                    "sha": "47c67e1",
+                    "date": "2026-11-17",
+                    "message": "Hide a Plugin Page When the Overflow Tab Swaps It Out (#17626)"
+                }
+            ],
+            "status": "ok",
+            "html_url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/tag/v2.5.1"
+        }
+    },
+    "trends": [
+        {
+            "title": "PLA Specs: Properties, Printing, Uses and Limitations",
+            "date": "2026-11-17",
+            "url": "https://3dprintingcanada.com/blogs/news/pla-specs-properties-printing-uses-and-limitations"
+        },
+        {
+            "title": "How to Check for a Clog and Clean a Nozzle With a Cold Pull",
+            "date": "2026-11-15",
+            "url": "https://3dprintingcanada.com/blogs/news/how-to-check-for-a-clog-and-clean-a-nozzle-with-a-cold-pull"
+        },
+        {
+            "title": "Compare bi-metal heatbreak designs for thermal performance",
+            "date": "2026-11-14",
+            "url": "https://3dprintingcanada.com/blogs/news/compare-bi-metal-heatbreak-designs-for-thermal-performance"
+        },
+        {
+            "title": "4 Ways to Design and Print Overhangs Without a Fan",
+            "date": "2026-11-13",
+            "url": "https://3dprintingcanada.com/blogs/news/4-ways-to-design-and-print-overhangs-without-a-fan"
+        },
+        {
+            "title": "How to Regenerate Silica Gel Desiccant in a Microwave Safely",
+            "date": "2026-11-13",
+            "url": "https://3dprintingcanada.com/blogs/news/how-to-regenerate-silica-gel-desiccant-in-a-microwave-safely"
+        }
+    ],
+    "wiki": {
+        "url": "https://wiki.snapmaker.com/en/snapmaker_u1",
+        "online": true,
+        "status_code": 200
+    },
+    "local_audit": {
+        "total": 7,
+        "passed": 7,
+        "failed": 0,
+        "profiles": [
+            {
+                "file": "0.08mm 3Deditos Ultra-Detail Art & Miniatures @Snapmaker U1 (0.4 nozzle).json",
+                "valid": true
+            },
+            {
+                "file": "0.20mm 3Deditos Dissimilar Support PLA+PETG @Snapmaker U1 (0.4 nozzle).json",
+                "valid": true
+            },
+            {
+                "file": "0.20mm 3Deditos High-Temp Carbon Engineering @Snapmaker U1 (0.4 nozzle).json",
+                "valid": true
+            },
+            {
+                "file": "0.20mm 3Deditos Kids Articulated 4Color @Snapmaker U1 (0.4 nozzle).json",
+                "valid": true
+            },
+            {
+                "file": "0.20mm 3Deditos Mechanical @Snapmaker U1 (0.4 nozzle).json",
+                "valid": true
+            },
+            {
+                "file": "0.20mm 3Deditos Overmold PETG+TPU @Snapmaker U1 (0.4 nozzle).json",
+                "valid": true
+            },
+            {
+                "file": "0.28mm 3Deditos Ultra-Draft Fast Prototype @Snapmaker U1 (0.4 nozzle).json",
+                "valid": true
+            }
+        ]
+    }
+}
